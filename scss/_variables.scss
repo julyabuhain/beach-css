@@ -1,0 +1,35 @@
+/* BRAND COLORS */
+
+$primary-color: #44bed6;
+$primary-accent-color: #a1deea;
+$secondary-color: #888585;
+$secondary-accent-color: #c2c2c2;
+
+/* TONES & SHADES */
+
+$primary-color-darken: darken($primary-color, 20%);
+$primary-color-lighten: lighten($primary-color, 20%);
+$primary-accent-color-darken: darken($primary-accent-color, 20%);
+$primary-accent-color-lighten: lighten($primary-accent-color, 20%);
+$secondary-color-darken: darken($secondary-color, 20%);
+$secondary-color-lighten: lighten($secondary-color, 20%);
+$secondary-accent-color-darken: darken($secondary-accent-color, 20%);
+$secondary-accent-color-lighten: lighten($secondary-accent-color, 20%);
+
+
+/* TYPOGRAPHY */
+
+$font-header: 'Poppins', Serif;
+$font-subheader: 'Open Sans', Sans-Serif;
+$font-paragraph: 'Open Sans', Sans-Serif;
+
+/* SIZES */
+
+$spacer: 1rem;
+
+$size-sm: 0.5rem;
+$size-xs: 1rem;
+$size-sm: 2rem;
+$size-md: 3rem;
+$size-lg: 4rem;
+$size-xl: 5rem;

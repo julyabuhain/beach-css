@@ -1,0 +1,126 @@
+/* BASE */
+/* BRAND COLORS */
+/* TONES & SHADES */
+/* TYPOGRAPHY */
+/* SIZES */
+/* UTILITY : COMMON CONCERNS */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:300,400,500,600,700");
+.cover {
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* Home Page */
+.cover[id=home-cover] {
+  background-color: #98dbe8;
+  color: white;
+  background-image: url("../assets/imgs/home-bg.jpg"); }
+
+/* UTILITY: COLOR FILL */
+.fill_primary {
+  background-color: #44bed6; }
+
+.fill_primary-darken {
+  background-color: #208194; }
+
+.fill_primary-lighten {
+  background-color: #98dbe8; }
+
+.fill_primary-accent {
+  background-color: #a1deea; }
+
+.fill_primary-accent-darken {
+  background-color: #4ec1d7; }
+
+.fill_primary-accent-lighten {
+  background-color: #f4fbfd; }
+
+.fill_secondary {
+  background-color: #888585; }
+
+.fill_secondary-darken {
+  background-color: #555252; }
+
+.fill_secondary-lighten {
+  background-color: #bab9b9; }
+
+.fill_secondary-accent {
+  background-color: #c2c2c2; }
+
+.fill_secondary-accent-darken {
+  background-color: #8f8f8f; }
+
+.fill_secondary-accent-lighten {
+  background-color: whitesmoke; }
+
+/* TYPESETTING */
+body {
+  font-size: 16px;
+  font-family: "Open Sans", Sans-Serif; }
+  @media (max-width: 1000px) {
+    body {
+      font-size: 14px; } }
+  @media (max-width: 500px) {
+    body {
+      font-size: 12px; } }
+
+h1, h2, h3, h4 {
+  font-family: "Poppins", Serif; }
+
+h1 {
+  font-size: 3.2rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2.5rem; }
+
+h4 {
+  font-size: 2rem; }
+
+.form-group label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-family: "Poppins", Serif;
+  color: #888585;
+  font-weight: bold; }
+
+p {
+  font-family: "Open Sans", Sans-Serif;
+  font-size: 1rem; }
+
+p.lead {
+  color: #44bed6;
+  font-weight: bold;
+  font-size: 1.3rem; }
+
+blockquote {
+  background-color: #f4fbfd;
+  border-left: #a1deea 0.5rem solid;
+  padding: 1.5rem 2.5rem;
+  margin: 0.5rem; }
+
+/* FORMS & FORM GROUPS */
+/* DETAILS */
+.card {
+  border: none; }
+
+.card-color {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #000;
+  height: 5rem;
+  margin-bottom: 2rem; }
+
+.beach-title {
+  font-size: 2rem;
+  color: #a1deea; }
+
+/*# sourceMappingURL=style.css.map */

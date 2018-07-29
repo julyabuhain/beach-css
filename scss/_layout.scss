@@ -1,0 +1,61 @@
+/* UTILITY : COMMON CONCERNS */
+
+.cover {
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.vertical-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Home Page */
+
+.cover[id=home-cover]{
+  background-color: $primary-color-lighten;
+  color: white;
+  background-image: url('../assets/imgs/home-bg.jpg');
+}
+
+
+/* UTILITY: COLOR FILL */
+
+.fill_primary {
+  background-color: $primary-color; }
+
+  .fill_primary-darken {
+    background-color: $primary-color-darken; }
+
+  .fill_primary-lighten {
+      background-color: $primary-color-lighten; }
+
+.fill_primary-accent {
+  background-color: $primary-accent-color; }
+
+  .fill_primary-accent-darken {
+    background-color: $primary-accent-color-darken; }
+
+  .fill_primary-accent-lighten {
+      background-color: $primary-accent-color-lighten; }
+
+.fill_secondary {
+  background-color: $secondary-color; }
+
+  .fill_secondary-darken {
+    background-color: $secondary-color-darken; }
+
+  .fill_secondary-lighten {
+      background-color: $secondary-color-lighten; }
+
+.fill_secondary-accent {
+  background-color: $secondary-accent-color; }
+
+  .fill_secondary-accent-darken {
+    background-color: $secondary-accent-color-darken; }
+
+  .fill_secondary-accent-lighten {
+      background-color: $secondary-accent-color-lighten; }
