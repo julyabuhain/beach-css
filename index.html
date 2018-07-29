@@ -1,0 +1,125 @@
+
+<html>
+<head>
+  <title></title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="en-au" />
+
+
+  <meta name="description" content=""/>
+  <link rel="canonical" href="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:site_name" content=""/>
+  <meta property="og:image" content="" />
+  <meta name="twitter:card" content=""/>
+  <meta name="twitter:description" content=""/>
+  <meta name="twitter:title" content=""/>
+  <meta name="twitter:domain" content=""/>
+  <meta name="twitter:creator" content=""/>
+  <meta name="twitter:image:src" content=""/>
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link ref="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container pt-5">
+<h1>🏖 Beach: A Style Guide for Seaside</h1>
+<p>Design system for Seaside. This is documentation to create a sustainable style guide for UI elements. This is built on top of Bootstrap 4, SASS and jQuery for interactivity. It is front end stack agnostic, and only requires Bootstrap dependencies (jQuery & popper.js). We recommend tooling with Gulp after a front end stack has been chosen, so we can automate CSS tasks such as clean up, compiling and running sass. <small>(I didn't want to install NPM! 🙅‍♂️)</small></P>
+<br>
+<p>CSS Architecture is as follows, we make use of partials to create a sustainble system.</p><br>
+<ul>
+  <li><b>style.scss</b>- Sass manifest file, compiles partials. </li>
+  <li><b>_animations.scss</b> - Animations</li>
+  <li><b>_beach.scss</b> - Beach/This Microsite specific classes. Please don't compile. </li>
+  <li><b>_buttons.scss</b> - Buttons</li>
+  <li><b>_hotfix.scss</b> - Hotfix Partial. If there's anything that hasn't been fixed, note it here. </li>
+  <li><b>_layout.scss</b> - Addresses layout concerns. (Navigation, cards, etc) </li>
+  <li><b>_spacing.scss</b> - Spacing</li>
+  <li><b>_typography.scss</b> - Typesetting</li>
+  <li><b>_variables.scss</b> - Handles colour.</li>
+</ul>
+
+The key concepts of this style guide are: seperation of concerns, relative units and to not have to repeat writing CSS. :)
+<br>
+<B>Please do not edit the core bootstrap files</b>
+<br>
+</p>
+
+<hr>
+
+<h2 class="beach-title">Colours</h2>
+
+  <div class="row align-items-center">
+
+  <div class="col">
+    <div class="card">
+        <div class="card-color fill_primary">$primary-color</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <div class="card-color fill_primary-accent">$primary-accent-color</div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+        <div class="card-color fill_secondary">$secondary-color</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <div class="card-color fill_secondary-accent">$secondary-accent-color</div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="row align-items-center">
+
+
+  <div class="col">
+    <div class="card">
+        <div class="card-color fill_-color">$-color</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <div class="card-color fill_-color">$primary-color</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <div class="card-color fill_-color">$primary-color</div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+        <div class="card-color">$primary-color</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
